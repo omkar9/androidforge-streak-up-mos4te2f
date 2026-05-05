@@ -1,6 +1,7 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    // These plugins are typically defined in settings.gradle.kts and applied in individual module build.gradle.kts files
-    // For a modern multi-module project, this file is often minimal.
-    // Refer to settings.gradle.kts for plugin management.
+    id("com.android.application") version "8.3.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.23" apply false
+    id("org.jetbrains.kotlin.kapt") version "1.9.23" apply false
+    id("com.google.dagger.hilt.android") version "2.51.1" apply false
+    id("com.google.devtools.ksp") version "1.9.23-1.0.19" apply false
 }
